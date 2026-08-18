@@ -1,0 +1,8 @@
+{
+  "builtin": false,
+  "default_enabled": true,
+  "rocket_mode_compatible": true,
+  "name": "VisibilityInspector",
+  "author": "OpenAI",
+  "description": "Read-only visibility diagnostics for host and linked Revit elements."
+}

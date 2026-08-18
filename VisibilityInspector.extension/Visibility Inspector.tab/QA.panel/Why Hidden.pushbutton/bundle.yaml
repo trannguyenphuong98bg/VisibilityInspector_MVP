@@ -1,0 +1,7 @@
+title: Why Hidden?
+tooltip: >-
+  Diagnose why a host or linked Revit element is missing from a target view.
+  Read-only MVP: checks Hide in View, category, workset, filters, crop,
+  section box, view range, phase, design option, temporary hide/isolate,
+  Revit Link instance visibility and linked-view controls where API access exists.
+author: OpenAI
