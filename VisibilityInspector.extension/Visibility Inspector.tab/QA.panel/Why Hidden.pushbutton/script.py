@@ -121,7 +121,7 @@ class Report(object):
     def info(self, check, finding, action=""):
         self.add("INFO", check, finding, action)
 
-    def print(self):
+    def render(self):
         output.print_md("## Visibility Diagnostic Report")
         output.print_md("| Status | Check | Finding | Suggested action |")
         output.print_md("|---|---|---|---|")
@@ -938,7 +938,7 @@ else:
             "Open the parent linked model and run the tool there, or extend the tool with nested-link traversal."
         )
 
-report.print()
+report.render()
 
 output.print_md("")
 output.print_md("> **MVP limitation:** Revit does not expose every Visibility/Graphics rule as one unified 'why hidden' API. "
